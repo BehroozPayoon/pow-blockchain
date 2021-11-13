@@ -1,9 +1,6 @@
-import datetime
-import hashlib
-import json
 from fastapi import FastAPI
+from blockchain import Blockchain
 
 app = FastAPI()
 
 # Building Blockchain
-
